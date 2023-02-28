@@ -16,4 +16,9 @@ export class AppComponent {
   helloWorld = () => {
     return 'Hola mundo!';
   };
+
+  persona = {
+    nombre: 'sheldon',
+    apellido: 'smith',
+  };
 }
